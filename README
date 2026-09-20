@@ -1,0 +1,9 @@
+Motorola One (deen) firmware for mainline Linux.
+
+Provenance:
+  modem/image/: stock modem partition dump PPKS29.68-16-33-17
+    (moto-msm8953/dump_motorola_deen). Contains mba.mbn, modem.*,
+    wcnss.* (CNSS-PR-4-0-3), adsp.*, venus.*, a506_zap.* splits.
+  wlan/: WCNSS NV (base + Argentina/Brazil/India/epa) from
+    electimon/vendor_motorola_deen.
+Hashes: see SHA256SUMS.
